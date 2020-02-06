@@ -1,4 +1,5 @@
 const nemo = ['Nemo'];
+const large = new Array(100).fill('Nemo');
 
 function findNemo(array){
   for(let i = 0; i < array.length; i++){
@@ -7,4 +8,4 @@ function findNemo(array){
     }
   }
 }
-findNemo(nemo);
+findNemo(large);
